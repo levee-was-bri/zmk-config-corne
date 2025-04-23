@@ -64,7 +64,7 @@
         moonlight_mouse: moonlight_mouse {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none>;
+            bindings = <&kp LC(LA(LS(M)))>;
             label = "MOONLIGHT_MOUSE";
         };
     };
@@ -119,10 +119,10 @@
 
         gaming {
             bindings = <
-&none  &kp ESCAPE  &kp Q   &kp W  &kp E             &kp R             &trans  &trans  &trans  &trans  &trans  &none
-&none  &kp SPACE   &kp A   &kp S  &kp D             &kp G             &trans  &trans  &trans  &trans  &trans  &none
-&none  &kp V       &trans  &kp I  &trans            &trans            &trans  &trans  &trans  &trans  &trans  &none
-                           &kp F  &kp LEFT_CONTROL  &kp LEFT_SHIFT    &trans  &trans  &trans
+&none  &kp ESCAPE  &kp Q   &kp W  &kp E             &kp R             &trans  &trans            &trans  &trans  &trans  &none
+&none  &kp SPACE   &kp A   &kp S  &kp D             &kp G             &trans  &trans            &trans  &trans  &trans  &none
+&none  &kp V       &trans  &kp I  &trans            &trans            &trans  &moonlight_mouse  &trans  &trans  &trans  &none
+                           &kp F  &kp LEFT_CONTROL  &kp LEFT_SHIFT    &trans  &trans            &trans
             >;
         };
     };
