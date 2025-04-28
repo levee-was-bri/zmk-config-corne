@@ -59,6 +59,12 @@
             bindings = <&kp DELETE>;
             key-positions = <33 32>;
         };
+
+        soft_off {
+            bindings = <&soft_off>;
+            key-positions = <2 26>;
+            layers = <2>;
+        };
     };
 
     macros {
@@ -111,10 +117,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS         &kp ASTRK     &kp LPAR      &kp RPAR      &none
-&none  &kp F1    &kp F2  &kp F3    &kp F4    &kp F5       &kp F11    &kp C_VOLUME_UP  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &none
-&none  &kp F6    &kp F7  &kp F8    &kp F9    &kp F10      &kp F12    &kp C_VOL_DN     &bt BT_SEL 3  &out OUT_TOG  &bt BT_CLR    &none
-                         &trans    &trans    &trans       &trans     &trans           &trans
+&none  &kp F1   &kp F2   &kp F3  &kp F4        &kp F5    &kp F6        &kp F7        &kp F8        &kp F9        &kp F10       &none
+&none  &kp F11  &kp F12  &none   &kp C_VOL_UP  &none     &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none
+&none  &none    &none    &none   &kp C_VOL_DN  &none     &none         &none         &none         &out OUT_TOG  &bt BT_CLR    &none
+                         &trans  &trans        &trans    &trans        &trans        &trans
             >;
         };
 
