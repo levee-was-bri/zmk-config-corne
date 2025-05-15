@@ -60,13 +60,23 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <33 32>;
+            key-positions = <8 9>;
         };
 
         soft_off {
             bindings = <&soft_off>;
             key-positions = <2 26>;
             layers = <2>;
+        };
+
+        tab_combo {
+            bindings = <&kp TAB>;
+            key-positions = <14 15>;
+        };
+
+        Escape_combo {
+            bindings = <&kp ESC>;
+            key-positions = <2 3>;
         };
     };
 
