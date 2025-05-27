@@ -20,7 +20,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
-            quick-tap-ms = <200>;
+            quick-tap-ms = <250>;
         };
 
         HMRS: HMRS {
@@ -31,7 +31,7 @@
             #binding-cells = <2>;
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
-            quick-tap-ms = <200>;
+            quick-tap-ms = <250>;
         };
 
         LHKPT: LHKPT {
@@ -51,7 +51,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <300>;
-            quick-tap-ms = <200>;
+            quick-tap-ms = <250>;
             flavor = "tap-preferred";
         };
     };
