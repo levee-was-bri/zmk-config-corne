@@ -18,9 +18,9 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
             flavor = "tap-preferred";
-            quick-tap-ms = <150>;
+            quick-tap-ms = <200>;
         };
 
         HMRS: HMRS {
@@ -50,8 +50,8 @@
             bindings = <&kp>, <&mmv>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <250>;
-            quick-tap-ms = <150>;
+            tapping-term-ms = <300>;
+            quick-tap-ms = <200>;
             flavor = "tap-preferred";
         };
     };
