@@ -61,7 +61,7 @@
 
         enter_combo {
             bindings = <&kp ENTER>;
-            key-positions = <20 21>;
+            key-positions = <20 21 19>;
         };
 
         function_layer {
@@ -71,7 +71,7 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <8 9>;
+            key-positions = <8 9 7>;
         };
 
         soft_off {
@@ -82,12 +82,12 @@
 
         tab_combo {
             bindings = <&kp TAB>;
-            key-positions = <14 15>;
+            key-positions = <14 15 16>;
         };
 
         Escape_combo {
             bindings = <&kp ESC>;
-            key-positions = <2 3>;
+            key-positions = <2 3 4>;
         };
     };
 
