@@ -129,10 +129,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&none  &kp NUMBER_1      &kp NUMBER_2                  &kp NUMBER_3              &kp NUMBER_4                         &kp N5                   &kp NUMBER_6  &kp N7                   &kp N8             &kp N9                &kp N0     &none
-&none  &kp LEFT_BRACKET  &HMRF LEFT_ALT RIGHT_BRACKET  &HMRF LEFT_GUI BACKSLASH  &HMRF LEFT_CONTROL LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &kp LEFT      &HMRF LEFT_CONTROL DOWN  &HMRF LEFT_GUI UP  &HMRF LEFT_ALT RIGHT  &kp SQT    &none
-&none  &kp GRAVE         &kp MINUS                     &kp EQUAL                 &kp LEFT_BRACE                       &kp RIGHT_BRACE          &kp HOME      &kp PAGE_DOWN            &kp PAGE_UP        &kp END               &kp MINUS  &none
-                                                       &trans                    &trans                               &trans                   &trans        &trans                   &trans
+&none  &kp NUMBER_1      &kp NUMBER_2                  &kp NUMBER_3                     &kp NUMBER_4                          &kp N5           &kp NUMBER_6  &kp N7                   &kp N8             &kp N9                &kp N0     &none
+&none  &kp LEFT_BRACKET  &HMRF LEFT_ALT RIGHT_BRACKET  &HMRF LEFT_GUI LEFT_PARENTHESIS  &HMRF LEFT_CONTROL RIGHT_PARENTHESIS  &kp BACKSLASH    &kp LEFT      &HMRF LEFT_CONTROL DOWN  &HMRF LEFT_GUI UP  &HMRF LEFT_ALT RIGHT  &kp SQT    &none
+&none  &kp GRAVE         &kp MINUS                     &kp LEFT_BRACE                   &kp RIGHT_BRACE                       &kp EQUAL        &kp HOME      &kp PAGE_DOWN            &kp PAGE_UP        &kp END               &kp MINUS  &none
+                                                       &trans                           &trans                                &trans           &trans        &trans                   &trans
             >;
         };
 
