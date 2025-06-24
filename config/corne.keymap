@@ -74,7 +74,7 @@
 
         delete {
             bindings = <&kp DELETE>;
-            key-positions = <9 10>;
+            key-positions = <33 34>;
         };
 
         soft_off {
