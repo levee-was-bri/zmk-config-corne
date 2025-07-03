@@ -161,7 +161,7 @@
             bindings = <
 &none  &kp ESCAPE  &kp Q   &kp W  &kp E             &kp R             &trans  &trans            &trans  &trans  &trans  &none
 &none  &kp SPACE   &kp A   &kp S  &kp D             &kp G             &trans  &trans            &trans  &trans  &trans  &none
-&none  &kp V       &trans  &kp I  &trans            &trans            &trans  &moonlight_mouse  &trans  &trans  &trans  &none
+&none  &kp V       &trans  &kp I  &kp C             &trans            &trans  &moonlight_mouse  &trans  &trans  &trans  &none
                            &kp F  &kp LEFT_CONTROL  &kp LEFT_SHIFT    &trans  &trans            &trans
             >;
         };
